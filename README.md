@@ -25,6 +25,7 @@ By doing this, the system learns to naturally synthesize facial hair that fits f
 - Architecture: Dual generator + discriminator
 - Goal: Unpaired image-to-image translation
 - Dataset: [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+- Reference: [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://github.com/junyanz/CycleGAN)
 
 # 🪓 Co-Evolutionary Model Pruning
 - Purpose: Reduce inference time and model size
@@ -33,7 +34,27 @@ By doing this, the system learns to naturally synthesize facial hair that fits f
 - Reference: [Co-Evolutionary Compression for Unpaired Image Translation](https://arxiv.org/abs/1907.10804)
 
 # Results
-Input	Output (Beard Added)
+Beardo (2beard):
    Input	    | Output (Beard Added)
-------------- | -------------
- |    
+:-------: | :------:
+<img src="image/image1.png" width="50%"> | <img src="image/image2.png" width="50%">  
+<img src="image/image3.png" width="50%"> | <img src="image/image4.png" width="50%"> 
+
+Beardo (2nobeard):
+ Input	    | Output (Beard Removed)
+:-------: | :------:
+<img src="image/2nobeard1.png" width="50%"> | <img src="image/2nobeard2.png" width="50%">  
+<img src="image/2nobeard3.png" width="50%"> | <img src="image/2nobeard4.png" width="50%">
+
+Co-Evolutionary Model Pruning Result:
+Efficient inference with minimal quality loss
+ Before Pruning	    | After Pruning
+:-------: | :------:
+<img src="image/pruning1.png" width="50%"> | <img src="image/pruning2.png" width="50%">  
+<img src="image/pruning3.png" width="50%"> | <img src="image/pruning4.png" width="50%">
+
+# Inference Result
+Input	    | Output 
+:-------: | :------:
+<img src="image/inference1.png" width="50%"> | <img src="image/inference2.png" width="50%">
+
