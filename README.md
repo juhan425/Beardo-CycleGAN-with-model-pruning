@@ -47,6 +47,7 @@ Beardo (2nobeard):
 <img src="image/2nobeard3.png" width="50%"> | <img src="image/2nobeard4.png" width="50%">
 
 Co-Evolutionary Model Pruning Result:
+
 Efficient inference with minimal quality loss
  Before Pruning	    | After Pruning
 :-------: | :------:
